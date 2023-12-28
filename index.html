@@ -18,7 +18,8 @@
 
 <body class="body">
   <!-- Header -->
-  <div class="main-container">
+
+  <div class="header-container">
     <header class="header">
       <!-- Logo & Text -->
       <div id="lt">
@@ -58,6 +59,9 @@
           </svg>          
       </div>
     </header>
+  </div>
+  <div class="main-container">
+    
 
     <!-- Hero -->
     <section class="main-hero">
@@ -368,7 +372,7 @@
         <p id="test">Testimonial</p>
         <p id="test-t">Over 18,000 happy clients.</p>
       </div>
-      <div class="swiper mySwiper">
+      <div class="mySwiper">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <span>
@@ -577,6 +581,8 @@
           </svg>
         </div>
       </div>
+
+
       <!-- Contact -->
       <section class="main-contact">
        
@@ -751,7 +757,8 @@
 
       <!-- Initialize Swiper -->
       <script>
-        var swiper = new Swiper(".mySwiper", {
+        var mySwiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
