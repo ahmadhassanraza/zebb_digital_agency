@@ -126,7 +126,7 @@ a {
   display: flex;
   max-width: 1920px;
   width: 100%;
-  padding: 200px 100px;
+  padding: 200px 50px;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -163,8 +163,8 @@ a {
   display: flex;
   max-width: 592px;
   width: 100%;
-  height: 508px;
-  padding: 4px 0px 4px 4px;
+  min-height: 508px;
+  /* padding: 4px 0px 4px 4px; */
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
@@ -176,7 +176,7 @@ a {
   display: flex;
   max-width: 1920px;
   width: 100%;
-  padding: 100px 150px;
+  padding: 100px 50px;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -187,8 +187,8 @@ a {
   display: flex;
   max-width: 592px;
   width: 100%;
-  height: 508px;
-  padding: 4px 0px 4px 4px;
+  min-height: 508px;
+  /* padding: 4px 0px 4px 4px; */
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
@@ -276,7 +276,7 @@ a {
   display: flex;
   max-width: 1920px;
   width: 100%;
-  padding: 100px 150px;
+  padding: 100px 50px;
   justify-content: space-between;
   align-items: center;
 }
@@ -660,11 +660,14 @@ a {
   line-height: 36px; /* 128.571% */
 }
 
-.swiper {
+/* .swiper {
   width: 100%;
   height: 100%;
+} */
+.swiper-container {
+  padding: 0 40px;
+  position: relative;
 }
-
 .mySwiper {
   position: relative;
   display: flex;
@@ -764,11 +767,12 @@ a {
 
 .main-contact {
   display: flex;
-  /* padding: 100px 150px; */
+  padding: 100px 150px;
   justify-content: space-between;
   max-width: 1920px;
   width: 100%;
   align-items: center;
+  gap: 40px;
 }
 
 .circle5 {
@@ -1006,7 +1010,7 @@ a {
   display: flex;
   max-width: 1620px;
   width: 100%;
-  /* padding: 0px 150px; */
+  padding: 0px 5px;
   justify-content: space-between;
   align-items: flex-start;
   align-self: stretch;
@@ -1898,7 +1902,7 @@ a {
 
 /* Responsiveness for 320px */
 
-@media only screen and (min-width: 320px) {
+@media only screen and (max-width: 320px) {
   .main-container {
     max-width: 320px;
     width: 100%;
