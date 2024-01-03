@@ -1,6 +1,6 @@
 /* Responsiveness for 1440px */
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .main-container {
     max-width: 1440px;
     width: 100%;

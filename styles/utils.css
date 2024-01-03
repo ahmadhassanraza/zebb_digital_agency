@@ -18,3 +18,11 @@ a {
   opacity: 0.9;
   cursor: pointer;
 }
+
+p:hover {
+  cursor: default;
+}
+
+span:hover {
+  cursor: default;
+}
