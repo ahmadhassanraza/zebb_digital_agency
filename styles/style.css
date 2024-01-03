@@ -71,7 +71,7 @@ body {
   text-transform: uppercase;
 }
 
-.navigation:hover {
+.nav-p:hover {
   cursor: pointer;
 }
 
@@ -79,7 +79,7 @@ body {
   display: none;
 }
 
-#home-line {
+.home-line {
   border-bottom: 4px solid #ff5678;
   padding-bottom: 8px;
 }
@@ -299,19 +299,21 @@ body {
 
 .circle3 {
   display: flex;
-  max-width: 780px;
-  width: 100%;
+  width: 780px;
+  /* max-width: 780px;
+  width: 100%; */
   min-height: 570px;
   padding: 4px 0px 4px 4px;
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
   position: absolute;
-  left: -170px;
+  left: -346px;
   top: -85px;
   border-radius: 1000px;
   background: #ffeef6;
   z-index: -1;
+  overflow: hidden;
 }
 
 .left {
@@ -678,6 +680,7 @@ a {
   width: 100%;
   height: 100%;
 } */
+
 .swiper-container {
   padding: 0 40px;
   position: relative;
