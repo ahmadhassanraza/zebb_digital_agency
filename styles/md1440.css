@@ -9,10 +9,18 @@
   }
 
   .header {
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    z-index: 10;
-    padding: 8px 32px;
+  }
+
+  #lt {
+    position: relative;
+    left: -50px;
+  }
+
+  .navigation {
+    position: relative;
+    left: -50px;
   }
 
   .hum-menu {
@@ -20,13 +28,13 @@
   }
 
   .main-hero {
-    display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 200px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
     gap: 50px;
-    justify-content: space-between;
-    align-items: flex-start;
   }
 
   .main-power {
@@ -83,6 +91,8 @@
     row-gap: 12px;
     column-gap: 12px;
     align-self: stretch;
+    max-width: 1510px;
+    width: 100%;
   }
 
   .team-box .item {
