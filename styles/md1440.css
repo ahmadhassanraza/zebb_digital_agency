@@ -1,6 +1,6 @@
 /* Responsiveness for 1440px */
 
-@media (max-width: 1440px) {
+@media (max-width: 1440px) and (min-width: 1153px) {
   .main-container {
     max-width: 1440px;
     width: 100%;
@@ -11,16 +11,6 @@
   .header {
     max-width: 1376px;
     width: 100%;
-  }
-
-  #lt {
-    position: relative;
-    left: -50px;
-  }
-
-  .navigation {
-    position: relative;
-    left: -50px;
   }
 
   .hum-menu {
@@ -34,84 +24,67 @@
     margin-right: auto;
     padding-top: 200px;
     padding-bottom: 200px;
-    gap: 50px;
   }
 
   .main-power {
-    display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 100px 32px;
-    gap: 50px;
-    justify-content: space-between;
-    align-items: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .things {
-    display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 100px 32px;
-    justify-content: space-between;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .main-experiences {
-    display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 100px 32px;
-    justify-content: space-between;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
-  .main-experiences .circle4 {
-    display: flex;
-    width: 619px;
-    height: 532px;
-    padding: 4px 0px 4px 4px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-    border-radius: 1000px;
-    background: #ffeef6;
+  .circle4 {
+    max-width: 619px;
+    width: 100%;
+    min-height: 532px;
   }
 
   .main-team {
-    display: flex;
-    max-width: 1350px;
+    max-width: 1376px;
     width: 100%;
-    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
-  .main-team .team-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 12px;
-    column-gap: 12px;
-    align-self: stretch;
-    max-width: 1510px;
-    width: 100%;
+  .team-box {
+    row-gap: 51px;
   }
 
-  .team-box .item {
-    display: flex;
-    padding: 1em;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1 0 0;
-    border-radius: 50px;
-    border: 1px solid #b8b8b8;
-    background: #fff;
+  .item {
+    min-width: 440px;
+    width: 100%;
   }
 
   .p-work {
     display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 100px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex-direction: column;
     align-items: center;
     gap: 60px;
@@ -119,16 +92,19 @@
 
   .p-work .pwBoxes {
     display: grid;
-    grid-template-columns: repeat(3, minmax(422px, 1fr));
+    grid-template-columns: repeat(3, minmax(436px, 1fr));
     grid-template-rows: repeat(3, minmax(300px, 1fr));
     grid-gap: 32px;
   }
 
   .main-test {
     display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 100px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     flex-direction: column;
     overflow: hidden;
     align-items: center;
@@ -137,9 +113,12 @@
 
   .main-contact {
     display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 100px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     justify-content: space-between;
     align-items: center;
   }
@@ -149,7 +128,6 @@
     max-width: 592px;
     width: 100%;
     min-height: 508px;
-
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
@@ -159,14 +137,17 @@
 
   .main-newsletter {
     display: flex;
-    max-width: 1440px;
+    max-width: 1376px;
     width: 100%;
-    padding: 100px 32px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     justify-content: space-between;
     align-items: center;
   }
 
-  .main-newsletter .circle6 {
+  .circle6 {
     display: flex;
     max-width: 625px;
     width: 100%;
@@ -183,18 +164,62 @@
     display: flex;
     max-width: 1440px;
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 100px;
+    padding-bottom: 100px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 60px;
     position: relative;
   }
 
-  /* .footer-line {
-      display: flex;
-      padding: 32px;
-      justify-content: space-between;
-      align-items: center;
-      align-self: stretch;
-    } */
+  .footer-text {
+    max-width: 1376px;
+    width: 100%;
+  }
+
+  .footer-line {
+    max-width: 1376px;
+    width: 100%;
+  }
+
+  #cp-gap {
+    display: flex;
+    justify-content: center;
+    gap: 796px;
+  }
+
+  .circle7 {
+    position: absolute;
+    display: flex;
+    max-width: 750px;
+    width: 100%;
+    min-height: 524px;
+    right: -178px;
+    top: -200px;
+    z-index: -1;
+    padding: 4px 0px 4px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 1000px;
+    background: #ffeef6;
+  }
+
+  .circle8 {
+    position: absolute;
+    display: flex;
+    max-width: 750px;
+    width: 100%;
+    min-height: 524px;
+    left: -195px;
+    top: -200px;
+    z-index: -1;
+    padding: 4px 0px 4px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 1000px;
+    background: #ffeef6;
+  }
 }
