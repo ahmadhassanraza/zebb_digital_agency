@@ -1,0 +1,242 @@
+/* 1508 */
+
+@media (max-width: 1523) and (min-width: 1441px) {
+  .main-container {
+  }
+
+  .item {
+    min-width: 455px;
+    width: 100%;
+  }
+
+  .p-work .pwBoxes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(316px, 1fr));
+    grid-template-rows: repeat(3, minmax(300px, 1fr));
+    grid-gap: 32px;
+  }
+}
+
+/* @media (max-width: 1680px) and (min-width: 1441px) {
+  .main-container {
+    max-width: 1680px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header {
+    max-width: 1616px;
+    width: 100%;
+  }
+
+  .hum-menu {
+    display: none;
+  }
+
+  .main-hero {
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .main-power {
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .things {
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .main-experiences {
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .circle4 {
+    max-width: 619px;
+    width: 100%;
+    min-height: 532px;
+  }
+
+  .main-team {
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .team-box {
+    row-gap: 51px;
+  }
+
+  .item {
+    min-width: 440px;
+    width: 100%;
+  }
+
+  .p-work {
+    display: flex;
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .p-work .pwBoxes {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(436px, 1fr));
+    grid-template-rows: repeat(3, minmax(300px, 1fr));
+    grid-gap: 32px;
+  }
+
+  .main-test {
+    display: flex;
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .main-contact {
+    display: flex;
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .circle5 {
+    display: flex;
+    max-width: 592px;
+    width: 100%;
+    min-height: 508px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    border-radius: 1000px;
+    background: #ffeef6;
+  }
+
+  .main-newsletter {
+    display: flex;
+    max-width: 1616px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .circle6 {
+    display: flex;
+    max-width: 625px;
+    width: 100%;
+    min-height: 536px;
+    padding: 4px 0px 4px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 1000px;
+    background: #ffeef6;
+  }
+
+  .footer {
+    display: flex;
+    max-width: 1680px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  .footer-text {
+    max-width: 1616px;
+    width: 100%;
+  }
+
+  .footer-line {
+    max-width: 1616px;
+    width: 100%;
+  }
+
+  #cp-gap {
+    display: flex;
+    justify-content: center;
+    gap: 796px;
+  }
+
+  .circle7 {
+    position: absolute;
+    display: flex;
+    max-width: 750px;
+    width: 100%;
+    min-height: 524px;
+    right: -178px;
+    top: -200px;
+    z-index: -1;
+    padding: 4px 0px 4px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 1000px;
+    background: #ffeef6;
+  }
+
+  .circle8 {
+    position: absolute;
+    display: flex;
+    max-width: 750px;
+    width: 100%;
+    min-height: 524px;
+    left: -195px;
+    top: -200px;
+    z-index: -1;
+    padding: 4px 0px 4px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 1000px;
+    background: #ffeef6;
+  }
+} */
