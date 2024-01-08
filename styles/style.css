@@ -1087,7 +1087,7 @@ a {
   padding-left: 206px;
 } */
 
-#cp {
+.cp {
   display: flex;
   justify-content: center;
   align-items: flex-end;
