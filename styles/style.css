@@ -861,7 +861,7 @@ a {
   gap: 20px;
 }
 
-#c-name-box {
+.c-name-box {
   display: flex;
   width: 656px;
   min-height: 70px;
@@ -882,7 +882,7 @@ a {
   gap: 20px;
 }
 
-#msg {
+.msg {
   display: flex;
   width: 656px;
   min-height: 200px;

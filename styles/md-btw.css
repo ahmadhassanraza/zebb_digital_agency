@@ -1,8 +1,12 @@
 /* 1508 */
 
-@media (max-width: 1523) and (min-width: 1441px) {
-  .main-container {
-  }
+@media (max-width: 1521) and (min-width: 1441px) {
+  /* .main-container {
+    max-width: 1920px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  } */
 
   .item {
     min-width: 455px;
@@ -11,10 +15,19 @@
 
   .p-work .pwBoxes {
     display: grid;
-    grid-template-columns: repeat(3, minmax(316px, 1fr));
+    grid-template-columns: repeat(3, minmax(216px, 1fr));
     grid-template-rows: repeat(3, minmax(300px, 1fr));
     grid-gap: 32px;
   }
+}
+
+@media (max-width: 1397) and (min-width: 1153px) {
+}
+
+@media (max-width: 1103) and (min-width: 898px) {
+}
+
+@media (max-width: 897) and (min-width: 769px) {
 }
 
 /* @media (max-width: 1680px) and (min-width: 1441px) {

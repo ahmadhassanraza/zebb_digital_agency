@@ -1,6 +1,6 @@
 /* Responsiveness for 1152px  */
 
-@media (max-width: 1152px) {
+@media (max-width: 1152px) and (min-width: 769px) {
   .main-container {
     max-width: 1152px;
     width: 100%;
@@ -238,14 +238,14 @@
     gap: 4px;
   }
 
-  #c-name-box {
+  .c-name-box {
     display: flex;
     max-width: 469px;
     /* width: 100%; */
     align-items: flex-start;
   }
 
-  #msg {
+  .msg {
     display: flex;
     max-width: 469px;
     /* width: 100%; */

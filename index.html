@@ -321,8 +321,6 @@
               </span>
             </span>
           </div>
-        </div>
-        <div>
           <div class="right-text">
             <span class="n-t2 nt2-g">
               <!-- 01 -->
@@ -359,7 +357,7 @@
                   mask="url(#path-1-outside-1_16_154)"
                 />
               </svg>
-
+  
               <span>
                 <p id="h-things">Digital Illustration</p>
                 <p class="p-things th-txt">
@@ -368,7 +366,7 @@
                 </p>
               </span>
             </span>
-
+  
             <span class="n-t2">
               <!-- 02 -->
               <svg
@@ -404,7 +402,7 @@
                   mask="url(#path-1-outside-1_16_159)"
                 />
               </svg>
-
+  
               <span>
                 <p id="h-things">Website design & development</p>
                 <p class="p-things th-txt">
@@ -413,7 +411,7 @@
                 </p>
               </span>
             </span>
-
+  
             <span class="n-t2">
               <!-- 03 -->
               <svg
@@ -449,7 +447,7 @@
                   mask="url(#path-1-outside-1_16_164)"
                 />
               </svg>
-
+  
               <span>
                 <p id="h-things">Social media management</p>
                 <p class="p-things th-txt">
@@ -481,7 +479,7 @@
 
       <!-- Team -->
       <section class="main-team">
-        <span
+        <span class="team-txt"
           >Meet the Team
           <div id="pink-line4"></div>
         </span>
@@ -1001,20 +999,20 @@
             <form id="form">
               <div id="c-name">
                 <label name="Name">Name</label>
-                <input id="c-name-box" type="text" />
+                <input class="c-name-box" type="text" />
               </div>
 
               <span id="c-name">
                 <label>Email</label>
-                <input id="c-name-box" type="email" />
+                <input class="c-name-box" type="email" />
               </span>
 
               <span id="c-msg">
                 <label name="message">Message</label>
-                <textarea name="message" id="msg" rows="" cols=""></textarea>
+                <textarea name="message" class="msg" rows="" cols=""></textarea>
               </span>
-              <button class="shadowed-button">Send</button>
             </form>
+            <button class="shadowed-button btn-c">Send</button>
           </div>
         </div>
       </section>
@@ -1030,16 +1028,15 @@
             <form id="form">
               <span id="c-name">
                 <label name="Name">Name</label>
-                <input id="c-name-box" type="text" />
+                <input class="c-name-box" type="text" />
               </span>
 
               <span id="c-name">
                 <label>Email</label>
-                <input id="c-name-box" type="email" />
+                <input class="c-name-box" type="email" />
               </span>
-
-              <button class="shadowed-button">Send</button>
             </form>
+            <button class="shadowed-button">Send</button>
           </div>
         </div>
         <div class="circle6"></div>
@@ -1213,7 +1210,7 @@
       <!-- Initialize Swiper -->
       <script>
         var mySwiper = new Swiper(".mySwiper", {
-          slidesPerView: 3,
+          slidesPerView: 1,
           navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
