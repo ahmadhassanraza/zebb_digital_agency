@@ -1,6 +1,6 @@
 /* Responsiveness for 768px */
 
-@media (max-width: 768px) and (min-width: 321px) {
+@media (max-width: 768px) and (min-width: 658px) {
   .main-container {
     max-width: 768px;
     width: 100%;
@@ -320,17 +320,17 @@
     min-height: 452px;
   }
 
-  #form{
+  #form {
     max-width: 479px;
     width: 100%;
   }
 
-  .c-name-box{
+  .c-name-box {
     max-width: 469px;
     width: 100%;
   }
 
-  .msg{
+  .msg {
     max-width: 469px;
     width: 100%;
   }
