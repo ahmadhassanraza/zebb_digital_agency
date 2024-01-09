@@ -267,15 +267,16 @@ body {
 /* Things */
 
 .things {
-  display: flex;
   max-width: 1510px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 100px;
   padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .things-head {
@@ -285,6 +286,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 62px; /* 114.815% */
+  margin-bottom: 100px;
 }
 
 #pink-line2 {
@@ -308,7 +310,7 @@ body {
   align-items: flex-start;
   gap: 4px;
   position: absolute;
-  left: -346px;
+  left: -166px;
   top: -85px;
   border-radius: 1000px;
   background: #ffeef6;
@@ -317,10 +319,11 @@ body {
 }
 
 .left {
+  max-width: 1510px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 120px;
+  justify-content: space-between;
+  /* gap: 522px; */
 }
 .left-text {
   position: relative;
@@ -847,11 +850,16 @@ a {
   gap: 100px;
 }
 
+/* .form {
+  gap: 40px;
+} */
+
 #form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
+  margin-bottom: 40px;
 }
 
 #c-name {
